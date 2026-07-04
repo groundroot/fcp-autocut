@@ -1,5 +1,12 @@
 # FCP AutoCut 버전 업데이트 로그
 
+## beta v0.7.5 — 2026-07-04
+
+### 수정
+- **FCP import 실패("DTD 확인 실패 — asset-clip") 수정** — 오디오 채널 설정이 있는
+  클립(audio-channel-source)에서 자막이 잘못된 위치에 삽입되어 import가 거부되던 문제.
+  FCPXML 규격 순서에 audio-channel-source를 반영해 올바른 위치에 삽입
+
 ## beta v0.7.4 — 2026-07-04
 
 ### 개선
