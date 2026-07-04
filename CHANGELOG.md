@@ -1,5 +1,12 @@
 # FCP AutoCut 버전 업데이트 로그
 
+## beta v0.7.3 — 2026-07-04
+
+### 수정
+- **"Intel 기반 앱 지원 종료" 경고 제거** — 번들된 정적 ffmpeg가 Intel(x86_64) 빌드여서
+  macOS가 Intel 구성 요소 경고를 띄우던 문제. arm64 정적 빌드(martin-riedl.de)로 교체,
+  이제 앱 전체가 순수 Apple Silicon 바이너리
+
 ## beta v0.7.2 — 2026-07-04
 
 ### 수정
