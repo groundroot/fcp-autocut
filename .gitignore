@@ -1,0 +1,5 @@
+# 배포 저장소: 문서와 패키지(릴리스)만 공개 — 소스는 로컬 유지
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
