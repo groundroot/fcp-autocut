@@ -1,5 +1,17 @@
 # FCP AutoCut 버전 업데이트 로그
 
+## beta v0.6.1 — 2026-07-04 (긴급 수정)
+
+### 수정
+- **macOS 14/15에서 AI 엔진이 시작되지 않던 치명적 버그** —
+  "Failed to load the default metallib (language version 4.0)" 오류.
+  빌드 Mac(macOS 26)에서 mlx가 macOS 26 전용 휠로 설치되던 문제로,
+  macOS 14 호환 휠(Metal 3)로 교체. **macOS 15 테스터는 반드시 이 버전으로 업데이트 필요**
+
+### 예정 (v0.7)
+- 멀티캠(mc-clip) · 컴파운드(ref-clip) · 싱크로나이즈드(sync-clip) 클립 지원 —
+  메인 스토리라인 기준 처리
+
 ## beta v0.6 — 2026-07-04
 
 ### 개선
