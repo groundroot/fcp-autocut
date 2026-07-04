@@ -50,3 +50,4 @@
 
 - 베타 버전은 **30회**까지 사용할 수 있습니다
 - 버전별 변경 사항: [CHANGELOG.md](CHANGELOG.md)
+- 환경·프로젝트 유형별 호환성: [COMPATIBILITY.md](COMPATIBILITY.md)
