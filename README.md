@@ -9,6 +9,15 @@
   모든 처리는 <b>내 Mac 안에서만</b> 이루어집니다. 영상이 외부 서버로 나가지 않습니다.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/macOS-14.0%2B-000000?logo=apple&logoColor=white" alt="macOS 14.0+" />
+  <img src="https://img.shields.io/badge/Apple%20Silicon-M1%20이상%20전용-F05138?logo=apple&logoColor=white" alt="Apple Silicon 전용" />
+  <img src="https://img.shields.io/badge/Final%20Cut%20Pro-12.2–12.3-8E44AD" alt="Final Cut Pro 12.2–12.3" />
+  <img src="https://img.shields.io/badge/AI-100%25%20온디바이스-2E7D32" alt="100% 온디바이스 AI" />
+  <img src="https://img.shields.io/github/v/release/groundroot/fcp-autocut?label=beta&color=1E6FD9" alt="최신 버전" />
+  <img src="https://img.shields.io/github/downloads/groundroot/fcp-autocut/total?label=다운로드&color=555" alt="총 다운로드" />
+</p>
+
 ---
 
 ## 다운로드
