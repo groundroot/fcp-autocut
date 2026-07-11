@@ -1,0 +1,37 @@
+FCP AutoCut 최종 사용자 라이선스 (Proprietary License)
+Copyright (c) 2026 CloudK (christvictory@daeyoung.org). All rights reserved.
+
+한국어 요약
+-----------
+- FCP AutoCut은 독점(비공개) 소프트웨어입니다. 이 저장소는 배포용 바이너리(DMG)와
+  문서만을 제공합니다.
+- 개인적·상업적 영상 편집 목적으로 앱을 내려받아 사용하는 것은 무료 베타 기간 동안
+  허용됩니다 (앱 내 표시된 사용 한도 적용).
+- 다음 행위는 허용되지 않습니다: 앱(또는 그 일부)의 재배포·판매·재라이선스,
+  리버스 엔지니어링·디컴파일·수정, 라이선스 보호 장치의 우회.
+- 앱으로 생성한 결과물(자막·타임라인 등)의 권리는 전적으로 사용자에게 있습니다.
+- 이 소프트웨어는 "있는 그대로" 제공되며, 사용으로 인한 손해에 대해 저작권자는
+  책임지지 않습니다. 모든 처리는 사용자의 Mac에서 로컬로 이루어집니다.
+
+License (English)
+-----------------
+FCP AutoCut ("the Software") is proprietary software. This repository
+distributes only the compiled application (DMG) and documentation.
+
+Permission is granted to download and use the Software for personal and
+commercial video-editing purposes during the beta period, subject to the
+usage limits shown in the app.
+
+You may NOT, without prior written permission from the copyright holder:
+  1. redistribute, sell, rent, or sublicense the Software or any part of it;
+  2. reverse engineer, decompile, disassemble, or modify the Software;
+  3. circumvent any licensing or usage-limit mechanism.
+
+All output produced with the Software (subtitles, timelines, exported
+projects) belongs entirely to you.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM THE USE OF THE SOFTWARE. All processing happens locally on your Mac.
