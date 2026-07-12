@@ -1,0 +1,15 @@
+name: 💡 기능 요청
+description: 이런 기능이 있으면 좋겠어요
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 상황에서 필요한가요?
+      description: 편집 워크플로우에서 겪는 불편을 알려주세요
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 원하는 동작

@@ -1,0 +1,44 @@
+name: 🐛 버그 리포트
+description: 앱이 이상하게 동작하거나 결과물에 문제가 있어요
+labels: ["bug"]
+body:
+  - type: input
+    id: app-version
+    attributes:
+      label: FCP AutoCut 버전
+      description: 사이드바 하단에 표시됩니다 (예. beta v0.12.48)
+      placeholder: beta v0.12.48
+    validations:
+      required: true
+  - type: input
+    id: fcp-version
+    attributes:
+      label: 파이널컷 버전
+      placeholder: "12.3"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 버전 · Mac 기종
+      placeholder: macOS 26.2 · M1 Max
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 무슨 일이 있었나요?
+      description: 기대한 동작과 실제 동작을 적어주세요. 스크린샷이 있으면 붙여넣기!
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: |
+        1. 이런 프로젝트를 드래그
+        2. 이런 옵션으로 처리
+        3. 파이널컷으로 가져오면 …
+  - type: textarea
+    id: logs
+    attributes:
+      label: 로그 첨부 (중요!)
+      description: 작업 실패 화면의 **"로그 다운로드"** 버튼을 누르면 다운로드 폴더에 로그가 저장됩니다 — 그 파일을 여기에 드래그해 주세요. 처리 결과 문제라면 .fcpxmld 파일도 zip으로 함께!
