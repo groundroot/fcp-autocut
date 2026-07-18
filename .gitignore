@@ -8,6 +8,8 @@
 !docs/
 !docs/screenshots/
 !docs/screenshots/**
+!docs/index.html
+!docs/icon.png
 !LICENSE
 !icon.png
 !CHANGELOG.md
