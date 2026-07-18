@@ -5,6 +5,9 @@
 !.github/ISSUE_TEMPLATE/
 !.github/ISSUE_TEMPLATE/**
 !README.md
+!docs/
+!docs/screenshots/
+!docs/screenshots/**
 !LICENSE
 !icon.png
 !CHANGELOG.md
