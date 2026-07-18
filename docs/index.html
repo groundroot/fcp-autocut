@@ -84,8 +84,17 @@ section.alt{background:var(--bg2)}
 h2{font-size:clamp(24px,3.6vw,34px);font-weight:800;letter-spacing:-.02em;margin:6px 0 14px}
 .lead{color:var(--muted);max-width:680px;font-size:16.5px}
 
+/* 차별점 하이라이트 */
+.hl{display:flex;gap:18px;align-items:flex-start;margin-top:36px;padding:26px 28px;
+  border-radius:var(--radius);border:1px solid color-mix(in srgb,var(--accent) 40%,var(--line));
+  background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,var(--card)),color-mix(in srgb,var(--accent2) 12%,var(--card)))}
+.hl .em{font-size:30px;line-height:1}
+.hl h3{font-size:18.5px;margin-bottom:6px}
+.hl p{font-size:15px;color:var(--muted)}
+.hl p b{color:var(--text)}
+
 /* 신뢰 카드 4 */
-.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:36px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:16px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
 .tile .em{font-size:26px}
 .tile h3{font-size:16.5px;margin:10px 0 6px}
@@ -190,6 +199,13 @@ footer a{color:var(--muted);text-decoration:underline}
   <div class="wrap">
     <p class="kicker">Why FCP AutoCut</p>
     <h2>믿고 맡길 수 있는 이유</h2>
+    <div class="hl">
+      <div class="em">⚡</div>
+      <div>
+        <h3>내보내기 과정이 없다 — 프로젝트를 그대로 드래그</h3>
+        <p>다른 도구는 음성 인식을 위해 <b>영상을 렌더링하거나 오디오를 따로 추출</b>해서 넣어야 하죠. FCP AutoCut은 그 과정이 통째로 사라집니다. <b>편집하던 프로젝트를 드래그앤드롭</b>하면 컷편집된 타임라인의 오디오를 그대로 분석해 — <b>자막 생성부터 Text-Based Editing(대본 기반 편집)까지</b> 바로 이어집니다.</p>
+      </div>
+    </div>
     <div class="grid4">
       <div class="tile"><div class="em">🔒</div><h3>100% 내 Mac에서</h3><p>음성 인식·자막·편집·AI 정리까지 전부 온디바이스. 영상·음성이 밖으로 나가지 않습니다.</p></div>
       <div class="tile"><div class="em">♻️</div><h3>완전 비파괴</h3><p>결과는 항상 새 프로젝트로. 어저스트먼트 레이어·B롤·보조 스토리라인·컷 구조를 그대로 보존합니다.</p></div>
