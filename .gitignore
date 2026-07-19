@@ -5,9 +5,12 @@
 !.github/ISSUE_TEMPLATE/
 !.github/ISSUE_TEMPLATE/**
 !README.md
+!README.en.md
 !docs/
 !docs/screenshots/
 !docs/screenshots/**
+!docs/en/
+!docs/en/**
 !docs/index.html
 !docs/icon.png
 !docs/og-image.jpg

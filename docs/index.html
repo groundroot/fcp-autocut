@@ -14,7 +14,19 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://groundroot.github.io/fcp-autocut/og-image.jpg">
+<link rel="alternate" hreflang="ko" href="https://groundroot.github.io/fcp-autocut/">
+<link rel="alternate" hreflang="en" href="https://groundroot.github.io/fcp-autocut/en/">
+<link rel="alternate" hreflang="x-default" href="https://groundroot.github.io/fcp-autocut/en/">
 <link rel="icon" href="icon.png">
+<script>
+(function(){
+  try{
+    var pref = localStorage.getItem('fcpa-lang');
+    var nav = (navigator.language||'').toLowerCase();
+    if (pref === 'en' || (!pref && nav.indexOf('ko') !== 0)) location.replace('en/');
+  }catch(e){}
+})();
+</script>
 <style>
 :root{
   --bg:#0d1017; --bg2:#131826; --card:#1a2030; --line:#28304a;
@@ -165,6 +177,7 @@ footer a{color:var(--muted);text-decoration:underline}
       <a href="#editor">대본 편집기</a>
       <a href="#style">자막 스타일</a>
       <a href="#howto">사용법</a>
+      <a href="en/" onclick="try{localStorage.setItem('fcpa-lang','en')}catch(e){}" title="View in English">🇺🇸 English</a>
       <a href="https://github.com/groundroot/fcp-autocut/releases" class="dl">다운로드</a>
     </div>
   </div>
@@ -410,7 +423,7 @@ footer a{color:var(--muted);text-decoration:underline}
 
 <footer>
   <div class="wrap">
-    FCP AutoCut (beta) · © 2026 groundroot · <a href="https://github.com/groundroot/fcp-autocut/blob/main/CHANGELOG.md">업데이트 로그</a> · <a href="https://github.com/groundroot/fcp-autocut/issues">이슈</a><br>
+    FCP AutoCut (beta) · © 2026 groundroot · <a href="https://github.com/groundroot/fcp-autocut/blob/main/CHANGELOG.md">업데이트 로그</a> · <a href="https://github.com/groundroot/fcp-autocut/issues">이슈</a> · <a href="en/" onclick="try{localStorage.setItem('fcpa-lang','en')}catch(e){}">English</a><br>
     Final Cut Pro는 Apple Inc.의 상표입니다. 본 앱은 Apple과 무관한 독립 소프트웨어입니다.
   </div>
 </footer>
